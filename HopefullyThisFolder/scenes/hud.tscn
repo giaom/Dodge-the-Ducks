@@ -1,0 +1,348 @@
+[gd_scene load_steps=52 format=3 uid="uid://dig0t3ft3smvf"]
+
+[ext_resource type="Script" path="res://scenes/hud.gd" id="1_mdk55"]
+[ext_resource type="FontFile" uid="uid://cxg5kdhqgl88y" path="res://fonts/Xolonium-Regular.ttf" id="1_rp4o5"]
+[ext_resource type="Texture2D" uid="uid://dgsionihef353" path="res://art/water2.jpg" id="3_d1q1m"]
+[ext_resource type="Texture2D" uid="uid://rmxpidec51va" path="res://animations/endseq/Duckend/frame_00001.png" id="4_p5bhn"]
+[ext_resource type="Texture2D" uid="uid://dntiyu030seds" path="res://animations/endseq/Duckend/frame_00002.png" id="5_5tkxp"]
+[ext_resource type="Texture2D" uid="uid://cfvyjealgd1sk" path="res://animations/endseq/Duckend/frame_00003.png" id="6_j08gg"]
+[ext_resource type="Texture2D" uid="uid://dsl7hkgb2kixk" path="res://animations/endseq/Duckend/frame_00004.png" id="7_kjkud"]
+[ext_resource type="Texture2D" uid="uid://btugeubdvskia" path="res://animations/endseq/Duckend/frame_00005.png" id="8_yo5om"]
+[ext_resource type="Texture2D" uid="uid://drolnvdogfxsn" path="res://animations/endseq/Duckend/frame_00006.png" id="9_t0g7f"]
+[ext_resource type="Texture2D" uid="uid://cb8c4s5xthhrk" path="res://animations/endseq/Duckend/frame_00007.png" id="10_y8mw4"]
+[ext_resource type="Texture2D" uid="uid://dcsmabf6416rt" path="res://animations/endseq/Duckend/frame_00008.png" id="11_oqdgi"]
+[ext_resource type="Texture2D" uid="uid://cek78qk7d564" path="res://animations/endseq/Duckend/frame_00009.png" id="12_c4kc2"]
+[ext_resource type="Texture2D" uid="uid://dunjdtc74joqg" path="res://animations/endseq/Duckend/frame_00010.png" id="13_2tyeu"]
+[ext_resource type="Texture2D" uid="uid://dq6mtyo7hnuh" path="res://animations/endseq/Duckend/frame_00011.png" id="14_wgbu7"]
+[ext_resource type="Texture2D" uid="uid://bekkhbiaoeq6m" path="res://animations/endseq/Duckend/frame_00012.png" id="15_t2k2t"]
+[ext_resource type="Texture2D" uid="uid://d2uo5imjw5160" path="res://animations/endseq/Duckend/frame_00013.png" id="16_j1xsh"]
+[ext_resource type="Texture2D" uid="uid://imp77qv3h7ht" path="res://animations/endseq/Duckend/frame_00014.png" id="17_vd0fs"]
+[ext_resource type="Texture2D" uid="uid://df6vo5vorte3i" path="res://animations/endseq/Duckend/frame_00015.png" id="18_mjblv"]
+[ext_resource type="Texture2D" uid="uid://8xna60jnyfl2" path="res://animations/endseq/Duckend/frame_00016.png" id="19_3d2j3"]
+[ext_resource type="Texture2D" uid="uid://cm3yge72acn8s" path="res://animations/endseq/Duckend/frame_00017.png" id="20_3gddo"]
+[ext_resource type="Texture2D" uid="uid://d11a3p0stpnbd" path="res://animations/endseq/Duckend/frame_00018.png" id="21_s0i1x"]
+[ext_resource type="Texture2D" uid="uid://bgfg3bjj7lisp" path="res://animations/endseq/Duckend/frame_00019.png" id="22_yph1l"]
+[ext_resource type="Texture2D" uid="uid://b2wxbr4nskobq" path="res://animations/endseq/Duckend/frame_00020.png" id="23_xjh6g"]
+[ext_resource type="Texture2D" uid="uid://bdcqr6pojiwae" path="res://animations/endseq/Duckend/frame_00021.png" id="24_w8pex"]
+[ext_resource type="Texture2D" uid="uid://dw3j0djnt2ai8" path="res://animations/endseq/Duckend/frame_00022.png" id="25_efgrr"]
+[ext_resource type="Texture2D" uid="uid://b7mel1rsacob5" path="res://animations/endseq/Duckend/frame_00023.png" id="26_goy6n"]
+[ext_resource type="Texture2D" uid="uid://rte2aqqd3je" path="res://animations/endseq/Duckend/frame_00024.png" id="27_xddol"]
+[ext_resource type="Texture2D" uid="uid://m6lxaxynne4k" path="res://animations/endseq/Duckend/frame_00025.png" id="28_ctrxl"]
+[ext_resource type="Texture2D" uid="uid://dlptgdoyhnkue" path="res://animations/endseq/Duckend/frame_00026.png" id="29_7yk75"]
+[ext_resource type="Texture2D" uid="uid://cjvilcwnvw80p" path="res://animations/endseq/Duckend/frame_00027.png" id="30_ufe7h"]
+[ext_resource type="Texture2D" uid="uid://bexdvrebljj3b" path="res://animations/endseq/Duckend/frame_00028.png" id="31_cj1kt"]
+[ext_resource type="Texture2D" uid="uid://c1htfjqqufo0a" path="res://animations/endseq/Duckend/frame_00029.png" id="32_kaqah"]
+[ext_resource type="Texture2D" uid="uid://dd4bd6fu6vov3" path="res://animations/endseq/Duckend/frame_00030.png" id="33_ytqsg"]
+[ext_resource type="Texture2D" uid="uid://baagxtv4yp40c" path="res://animations/endseq/Duckend/frame_00031.png" id="34_5qtf0"]
+[ext_resource type="Texture2D" uid="uid://d3ndx7yinqusr" path="res://animations/endseq/Duckend/frame_00032.png" id="35_14rt1"]
+[ext_resource type="Texture2D" uid="uid://df0t7pegigny8" path="res://animations/endseq/Duckend/frame_00033.png" id="36_7gtux"]
+[ext_resource type="Texture2D" uid="uid://dr1neqiahtubo" path="res://animations/endseq/Duckend/frame_00034.png" id="37_4do1g"]
+[ext_resource type="Texture2D" uid="uid://ymhe3a6xtdi8" path="res://animations/endseq/Duckend/frame_00035.png" id="38_g20tw"]
+[ext_resource type="Texture2D" uid="uid://c7sl6iwy0x8h" path="res://animations/endseq/Duckend/frame_00036.png" id="39_78eno"]
+[ext_resource type="Texture2D" uid="uid://b52nslxdex4ov" path="res://animations/endseq/Duckend/frame_00037.png" id="40_q8ewk"]
+[ext_resource type="Texture2D" uid="uid://b6mdj0d21spxq" path="res://animations/endseq/Duckend/frame_00038.png" id="41_80ku6"]
+[ext_resource type="Texture2D" uid="uid://bt06ijsohi6kc" path="res://animations/endseq/Duckend/frame_00039.png" id="42_b2u18"]
+[ext_resource type="Texture2D" uid="uid://baixf1sfpjh6b" path="res://animations/endseq/Duckend/frame_00040.png" id="43_3m41k"]
+[ext_resource type="Texture2D" uid="uid://baeb6rr2adygx" path="res://animations/endseq/Duckend/frame_00041.png" id="44_qsi08"]
+[ext_resource type="Texture2D" uid="uid://cpdkdk43bylu1" path="res://animations/endseq/Duckend/frame_00042.png" id="45_sqvn6"]
+[ext_resource type="Texture2D" uid="uid://bu4cme6mki8h3" path="res://animations/endseq/Duckend/frame_00043.png" id="46_4okxo"]
+[ext_resource type="Texture2D" uid="uid://devpxgd8l6nfp" path="res://animations/endseq/Duckend/frame_00044.png" id="47_6q4t1"]
+[ext_resource type="Texture2D" uid="uid://dcggdgs60l2sl" path="res://animations/endseq/Duckend/frame_00045.png" id="48_2r5ni"]
+
+[sub_resource type="InputEventAction" id="InputEventAction_xof52"]
+action = &"start_game"
+
+[sub_resource type="Shortcut" id="Shortcut_cbm30"]
+events = [SubResource("InputEventAction_xof52")]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_rlc8v"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_p5bhn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_5tkxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_j08gg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_kjkud")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yo5om")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_t0g7f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_y8mw4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_oqdgi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_c4kc2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_2tyeu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_wgbu7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_t2k2t")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_j1xsh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_vd0fs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_mjblv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_3d2j3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_3gddo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_s0i1x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_yph1l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_xjh6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_w8pex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_efgrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_goy6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_xddol")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_ctrxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_7yk75")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_ufe7h")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_cj1kt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_kaqah")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_ytqsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_5qtf0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_14rt1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_7gtux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_4do1g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_g20tw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_78eno")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_q8ewk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_80ku6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_b2u18")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_3m41k")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_qsi08")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_sqvn6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_4okxo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_6q4t1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_2r5ni")
+}],
+"loop": false,
+"name": &"End",
+"speed": 14.0
+}]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_mdk55")
+
+[node name="ScoreLabel" type="Label" parent="."]
+z_index = 2
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -240.0
+offset_top = 32.0
+offset_right = 240.0
+offset_bottom = 110.0
+grow_horizontal = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_rp4o5")
+theme_override_font_sizes/font_size = 64
+text = "0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="InfoScreen" type="Label" parent="."]
+visible = false
+modulate = Color(0.0901961, 0.239216, 0.211765, 1)
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -240.0
+offset_top = 120.0
+offset_right = 1131.0
+offset_bottom = 1446.0
+grow_horizontal = 2
+scale = Vector2(0.35, 0.35)
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_rp4o5")
+theme_override_font_sizes/font_size = 64
+text = "Press Info to return to homescreen. 
+
+How to Play:
+- Move your character with arrow keys
+- Avoid incoming mobs
+- Earn points by staying alive
+- Press 'Start' to begin!
+
+Boosts:
+- HOLD down SPACE to slow Mobs!
+- Careful! It will also speed you up!
+ 
+(To Start, Press Info to Return Home)"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HighScoreLabel" type="Label" parent="."]
+z_index = 2
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -120.0
+offset_top = 8.0
+offset_right = 480.0
+offset_bottom = 86.0
+grow_horizontal = 2
+scale = Vector2(0.4, 0.4)
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_rp4o5")
+theme_override_font_sizes/font_size = 64
+text = "HighScore: 0"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Message" type="Label" parent="."]
+z_index = 2
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -240.0
+offset_top = -120.0
+offset_right = 240.0
+offset_bottom = 120.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+theme_override_fonts/font = ExtResource("1_rp4o5")
+theme_override_font_sizes/font_size = 64
+text = "Dodge the Ducks!"
+horizontal_alignment = 1
+vertical_alignment = 1
+autowrap_mode = 2
+
+[node name="StartButton" type="Button" parent="."]
+z_index = 2
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -168.0
+offset_right = 100.0
+offset_bottom = -68.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_fonts/font = ExtResource("1_rp4o5")
+theme_override_font_sizes/font_size = 64
+shortcut = SubResource("Shortcut_cbm30")
+text = "Start"
+
+[node name="InfoButton" type="Button" parent="."]
+z_index = 2
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -100.0
+offset_top = -56.0
+offset_right = 300.0
+offset_bottom = 30.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(0.5, 0.5)
+theme_override_fonts/font = ExtResource("1_rp4o5")
+theme_override_font_sizes/font_size = 64
+shortcut = SubResource("Shortcut_cbm30")
+text = "Info"
+
+[node name="MessageTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="Water2" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.360784)
+z_index = 1
+position = Vector2(240, 424)
+rotation = 1.5708
+texture = ExtResource("3_d1q1m")
+
+[node name="EndAnimation" type="AnimatedSprite2D" parent="."]
+position = Vector2(240, 358.99)
+rotation = 1.5708
+scale = Vector2(0.564048, 0.666667)
+sprite_frames = SubResource("SpriteFrames_rlc8v")
+animation = &"End"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="InfoButton" to="." method="_on_info_button_pressed"]
+[connection signal="timeout" from="MessageTimer" to="." method="_on_message_timer_timeout"]
